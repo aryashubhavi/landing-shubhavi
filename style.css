@@ -1,0 +1,50 @@
+
+@font-face {
+font-family: 'Laca Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Laca Regular'), url('fonts/Laca Regular.woff') format('woff');
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+#links a{
+  color: black;
+  text-decoration: none;
+}
+
+#links a:hover {
+    color: #BF9D30;
+    text-decoration: none;
+  }
+
+#main{
+  margin-top: 200px;
+}
+
+header{
+  margin-left: 100px;
+}
+
+#links{
+  margin-top: 0px;
+}
+
+
+body {
+
+  background: linear-gradient(-45deg, #BF9D30, #fff, #FDF2F4, #ee7752 );
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
