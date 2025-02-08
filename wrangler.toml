@@ -1,0 +1,14 @@
+name = "shubhaviarya"
+main = "worker.js"
+workers_dev = false
+compatibility_date = "2025-01-01"  # Add compatibility date
+
+routes = [
+  { pattern = "www.shubhaviarya.com", custom_domain = true }
+]
+
+[assets]
+directory = "./"  # Directory containing static assets
+binding = "ASSETS"  # Add assets binding
+not_found_handling = "single-page-application"  # Handle SPA routing
+
